@@ -30,6 +30,7 @@ namespace RentalCar.WPF
         private string username;
         private string password;
 
+        //Admin Login Method
         private void Login(object sender, RoutedEventArgs e)
         {
             username = Username.Text;

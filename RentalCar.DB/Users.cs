@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace RentalCar.DB
 {
+    //User class that will hold information about who rents what and at what cost
+
     public class Users
     {
         public int ID { get; set; }

@@ -28,7 +28,7 @@ namespace RentalCar.WPF
         }
 
 
-
+        //Method retrieving car and car cost from db
         public void CarData()
         {
             RentalCarModel RCM = new RentalCarModel();
@@ -40,6 +40,7 @@ namespace RentalCar.WPF
 
         }
 
+        //Method adding new users 
         private void AddUser(object sender, RoutedEventArgs e)
         {
             RentalCarModel RCM = new RentalCarModel();
@@ -89,6 +90,13 @@ namespace RentalCar.WPF
 
 
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
         }
     }
 }

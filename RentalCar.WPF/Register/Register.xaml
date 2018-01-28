@@ -57,9 +57,10 @@
         </Border>
         <Label Foreground="AntiqueWhite" Content="Days Required" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Grid.Row="5" Height="27" Width="100"  VerticalAlignment="Center" Margin="23,10,23,7" />
 
-        <Button Click="AddUser" Content="Register" Background="#ABB2B9 " HorizontalAlignment="Center"  Grid.Row="6" Grid.ColumnSpan="2"  VerticalAlignment="Center" Width="75"/>
+        <Button Click="AddUser" Content="Register" Background="#ABB2B9 " HorizontalAlignment="Center"  Grid.Row="6" Grid.Column="2"   VerticalAlignment="Center" Width="75"/>
+        <Button  Click="Button_Click" Content="Back" HorizontalAlignment="Center" Background="#ABB2B9"  Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Width="75"/>
 
-        
+
 
 
 

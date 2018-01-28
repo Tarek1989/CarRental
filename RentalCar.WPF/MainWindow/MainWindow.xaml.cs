@@ -24,7 +24,8 @@ namespace RentalCar.WPF
         {
             InitializeComponent();
         }
-
+        
+        //Click method directing admin to admin login page
         private void Admin(object sender, RoutedEventArgs e)
         {
             AdminLogin AL = new AdminLogin();
@@ -32,6 +33,7 @@ namespace RentalCar.WPF
             this.Close();
         }
 
+        //click method directing user to user register page
         private void User(object sender, RoutedEventArgs e)
         {
             Register r = new Register();

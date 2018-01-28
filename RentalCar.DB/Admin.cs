@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace RentalCar.DB
 {
+    // Admin Class that will hold information about admins
+
     public class Admin
     {
         public int ID { get; set; }

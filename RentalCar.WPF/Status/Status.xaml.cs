@@ -27,6 +27,7 @@ namespace RentalCar.WPF
             UserData();
         }
 
+        //Method that displays all Users that rented a car
         public void UserData()
         {
 
@@ -39,6 +40,7 @@ namespace RentalCar.WPF
             
         }
 
+        //Back Method
         private void Back(object sender, RoutedEventArgs e)
         {
             MainWindow mw = new MainWindow();
@@ -46,6 +48,7 @@ namespace RentalCar.WPF
             this.Close();
         }
 
+        //Method that upon click redirect admin to user deletion page.
         private void Delete(object sender, RoutedEventArgs e)
         {
             DeleteUser delete = new DeleteUser();

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace RentalCar.DB
 {
+    // car Class that that will hold information about car model and cost per day
     public class CarRental
     {
         public int ID { get; set; }

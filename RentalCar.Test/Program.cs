@@ -7,14 +7,20 @@ using System.Threading.Tasks;
 
 namespace RentalCar.Test
 {
+    /*Namespace RentalCar.Test used for testing the different methods
+     * Classes in namespace created in scenario where extra feautures needed to be added
+     * but predominantly if app was console UI*/
+
     class Program
     {
+
         static void Main(string[] args)
         {
+            /* 
             RentalCarModel RCM = new RentalCarModel();
             _Admin a = new _Admin(RCM);
 
-            /* Admin admin = new Admin();
+            Admin admin = new Admin();
              admin.Name = "John";
              admin.Surname = "One";
 
@@ -25,7 +31,7 @@ namespace RentalCar.Test
              a.AddData(admin);
              a.AddData(secondadming);
 
-             Console.ReadLine();*/
+             Console.ReadLine();
 
             _Users u = new _Users(RCM);
             Users users = new Users();
@@ -39,7 +45,7 @@ namespace RentalCar.Test
 
             //Puts Data(car/cost) into dictionary
 
-           /* _CarRental cr = new _CarRental(RCM);
+           _CarRental cr = new _CarRental(RCM);
 
             Dictionary<string, int> x = cr.GetCarData().ToDictionary(car => car.Car, cost => cost.Cost);
 
