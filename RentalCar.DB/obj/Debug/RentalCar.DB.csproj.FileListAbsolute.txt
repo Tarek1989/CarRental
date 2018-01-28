@@ -1,0 +1,12 @@
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\RentalCar.DB.dll.config
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\RentalCar.DB.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\RentalCar.DB.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\EntityFramework.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\EntityFramework.xml
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\obj\Debug\RentalCar.DB.csprojResolveAssemblyReference.cache
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\obj\Debug\RentalCar.DB.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\obj\Debug\RentalCar.DB.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\obj\Debug\RentalCar.DB.Migrations.First.resources
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\MoebiusApp\RentalCar.DB\obj\Debug\RentalCar.DB.csproj.GenerateResource.Cache

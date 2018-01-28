@@ -1,0 +1,53 @@
+﻿<Window x:Class="RentalCar.WPF.DeleteUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalCar.WPF"
+        mc:Ignorable="d"
+        Title="DeleteUser" Height="300" Width="300">
+    <Grid Background="#332D39">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Border  Grid.Column="1" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="44" Margin="24,13,0,0" VerticalAlignment="Top" Width="185">
+            <ComboBox ItemsSource ="{Binding Path=Users}"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14"  DisplayMemberPath="ID"  x:Name="UserList" >
+
+            </ComboBox>
+
+        </Border>
+        <Label FontWeight="UltraBold" FontSize="14" Content="ID" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="53" Height="44" RenderTransformOrigin="0.491,0.477"/>
+
+        <Border  Grid.Column="1" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="44" Margin="24,13,0,0" VerticalAlignment="Top" Width="185" Grid.Row="1">
+            <TextBox Text="{Binding ElementName=UserList, Path=SelectedValue.Name}"   x:Name="Name" TextAlignment="Center" VerticalContentAlignment="Center" Margin="-1,1,1,-1" />
+        </Border>
+        <Label FontWeight="UltraBold" FontSize="14" Content="Name" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="53" Height="44" RenderTransformOrigin="0.491,0.477" Grid.Row="1"/>
+
+
+        <Border  Grid.Column="1" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="44" Margin="24,14,0,0" VerticalAlignment="Top" Width="185" Grid.Row="2">
+            <TextBox Text="{Binding ElementName=UserList, Path=SelectedValue.Surname}"  x:Name="Surname" TextAlignment="Center" VerticalContentAlignment="Center" Margin="-1,1,1,-1" />
+        </Border>
+        <Label FontWeight="UltraBold" FontSize="14" Content="Surname" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="0,14,0,0" VerticalAlignment="Top" Width="73" Height="44" RenderTransformOrigin="0.491,0.477" Grid.Row="2"/>
+
+        <Border  Grid.Column="1" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="44" Margin="24,13,0,0" VerticalAlignment="Top" Width="185" Grid.Row="3">
+            <TextBox Text="{Binding ElementName=UserList, Path=SelectedValue.Car}" x:Name="Car" TextAlignment="Center" VerticalContentAlignment="Center" Margin="-1,1,1,-1"/>
+        </Border>
+        <Label FontWeight="UltraBold" FontSize="14" Content="Car" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="53" Height="44" RenderTransformOrigin="0.491,0.477" Grid.Row="3"/>
+
+        <Button  Click="Delete" FontWeight="Bold" Content="DELETE" Grid.Column="1"  HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="74" Margin="74,7,63,0"/>
+
+        <Button Background="#ABB2B9" Click="Back"  Content="BACK"  FontWeight="Bold" HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="4" VerticalAlignment="Top" Width="51"/>
+
+    </Grid>
+</Window>

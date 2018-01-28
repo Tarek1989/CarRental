@@ -1,0 +1,31 @@
+﻿<Window x:Class="RentalCar.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalCar.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#332D39">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border  BorderThickness="1" HorizontalAlignment="Center" Height="102"  Grid.RowSpan="2" VerticalAlignment="Center" Width="100" Grid.ColumnSpan="2" Margin="210,58,207,159">
+            <Button Background="#ABB2B9   "   Click="Admin"  FontWeight="Bold" VerticalAlignment="Bottom" Content="ADMIN" Width="90" Height="25" Margin="4,0,4,4" />
+        </Border>
+        <Border  BorderThickness="1" HorizontalAlignment="Center" Height="102" Margin="210,10.5,207,47" Grid.Row="1" VerticalAlignment="Center" Width="100" Grid.ColumnSpan="2">
+            <Button Background="#ABB2B9  " Click="User" VerticalAlignment="top" FontWeight="Bold" Content="USER" Width="90" Height="25" Margin="4,4,4,0"/>
+        </Border>
+
+
+
+
+    </Grid>
+</Window>
