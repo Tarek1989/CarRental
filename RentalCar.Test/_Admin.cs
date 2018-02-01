@@ -11,6 +11,7 @@ namespace RentalCar.Test
     public class _Admin : Repositories<Admin>
     {
 
+
         public _Admin(RentalCarModel rcm) : base(rcm)
         {
 
